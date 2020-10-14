@@ -40,7 +40,7 @@
     // 查找节点的上一个节点
     function findPre(item){
         var currNode = this.head;
-        while (currNode.next.element != item){
+        while (currNode.next != null && currNode.next.element != item){
             currNode = currNode.next
         }
         return currNode;
