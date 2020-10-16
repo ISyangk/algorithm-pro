@@ -1,5 +1,5 @@
 ## 实现一个链表
-    ```javascript
+    ```js
     // 节点构造函数
     function Node(el) {
         this.element = el;
